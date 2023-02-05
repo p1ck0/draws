@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T20:00:58.467Z" agent="5.0 (X11)" version="20.8.0" etag="edpJyYN2aI8CdeKuRw7H" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-05T20:02:10.769Z" agent="5.0 (X11)" version="20.8.0" etag="JYq49s8OiMxAUVuICqKc" type="github">
   <diagram id="8HzEb5WCuWgLSiuGVbn9" name="Page-1">
-    <mxGraphModel dx="647" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="378" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,38 @@
         </mxCell>
         <mxCell id="0PpGyIOEij2_zgUjwJkX-1" value="Главная программа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0PpGyIOEij2_zgUjwJkX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0PpGyIOEij2_zgUjwJkX-2" target="0PpGyIOEij2_zgUjwJkX-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="230" />
+              <mxPoint x="10" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PpGyIOEij2_zgUjwJkX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0PpGyIOEij2_zgUjwJkX-2" target="0PpGyIOEij2_zgUjwJkX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="230" />
+              <mxPoint x="10" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PpGyIOEij2_zgUjwJkX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0PpGyIOEij2_zgUjwJkX-2" target="0PpGyIOEij2_zgUjwJkX-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="230" />
+              <mxPoint x="10" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PpGyIOEij2_zgUjwJkX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0PpGyIOEij2_zgUjwJkX-2" target="0PpGyIOEij2_zgUjwJkX-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="230" />
+              <mxPoint x="10" y="490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0PpGyIOEij2_zgUjwJkX-2" value="&lt;div&gt;Пациент&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
