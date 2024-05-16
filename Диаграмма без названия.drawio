@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T18:05:19.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="6DgJkClPZfsmcSHbxjkr" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T18:21:05.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="00SxC--z41lyZPCkMyCU" version="24.4.3" type="github">
   <diagram name="Страница — 1" id="m_ZKeMCXCTekE9vXS3An">
-    <mxGraphModel dx="2817" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1788" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P6zghFMr0lrIGVhiy2J4-8" value="Docker" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="220" width="1690" height="850" as="geometry" />
-        </mxCell>
-        <mxCell id="P6zghFMr0lrIGVhiy2J4-12" value="АИС" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="340" width="1550" height="690" as="geometry" />
-        </mxCell>
         <mxCell id="P6zghFMr0lrIGVhiy2J4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="P6zghFMr0lrIGVhiy2J4-1" target="P6zghFMr0lrIGVhiy2J4-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -34,14 +28,14 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6zghFMr0lrIGVhiy2J4-1" value="сервис API" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="340" y="420" width="110" height="50" as="geometry" />
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-1" value="реплики сервиса API" style="verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P6zghFMr0lrIGVhiy2J4-2" value="сервис Авторизации" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="535" width="110" height="50" as="geometry" />
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-2" value="реплики сервиса Авторизации" style="verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="535" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P6zghFMr0lrIGVhiy2J4-3" value="сервис Валидации СГК" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="690" width="110" height="50" as="geometry" />
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-3" value="реплики сервиса Валидации СГК" style="verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="690" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="P6zghFMr0lrIGVhiy2J4-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P6zghFMr0lrIGVhiy2J4-4" target="P6zghFMr0lrIGVhiy2J4-53">
           <mxGeometry relative="1" as="geometry">
@@ -73,7 +67,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6zghFMr0lrIGVhiy2J4-11" value="Nginx" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-11" value="Балансировщик нагрузки ngnix" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="340" y="270" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="P6zghFMr0lrIGVhiy2J4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="P6zghFMr0lrIGVhiy2J4-25" target="P6zghFMr0lrIGVhiy2J4-2">
