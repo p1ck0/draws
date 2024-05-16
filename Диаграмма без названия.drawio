@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T17:24:10.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" version="24.4.3" etag="lqLKw8KrPeVi68mScVaG" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T17:28:10.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="h_x6G4ApoQ0wvAP1tvP4" version="24.4.3" type="github">
   <diagram name="Страница — 1" id="m_ZKeMCXCTekE9vXS3An">
-    <mxGraphModel>
+    <mxGraphModel dx="1639" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-8" value="Docker" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="720" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-1" value="сервис API" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-2" value="сервис Авторизации" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-3" value="сервис Валидации СГК" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-4" value="сервис отправки СГК в НО" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="358" y="650" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P6zghFMr0lrIGVhiy2J4-5" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
